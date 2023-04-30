@@ -1,0 +1,46 @@
+
+.service-p{
+    width: 70%;
+    pointer-events: none;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.service-main .container1{
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+.container{
+    position: relative;
+}
+.service-main .container1 .row{
+    padding: 1rem 3rem;
+    display: flex;
+}
+.service-main .container1{
+    width: 80%;
+    margin: auto;
+}
+.service-icon{
+    font-size: 30px;
+}
+@media screen and (max-width:1030px){
+    .service-main .container .row{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+    .service-main .container .row .col{
+        margin: auto;
+
+    }
+}
+@media screen and (max-width:730px){
+    .service-main .container .row{
+        display: grid !important;
+        grid-template-columns: 1fr;
+    }
+    .service-main .container .row .col{
+        width: 100% !important;
+        margin: auto;
+    }
+}

@@ -1,0 +1,39 @@
+.banner-main{
+    width: 95%;
+    margin: 4rem 25px;
+    text-align: center;
+    color: #fff;
+    padding-bottom: 10rem;
+    position: relative;
+}
+.banner-main h1{
+    pointer-events: none;
+    font-size: 1.5rem;
+}
+.social-icon:hover{
+    color: #FF00FF;
+    transform: translateX(10px);
+}
+.banner-img{
+    margin: -8% auto;
+    width: 38%;
+    padding-bottom: 40px;
+    animation: banneranim 2s infinite;
+    pointer-events: none;
+}
+@keyframes banneranim{
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+@media screen and (max-width:1100px){
+    .banner-img{
+        width: 80%;
+    }
+}

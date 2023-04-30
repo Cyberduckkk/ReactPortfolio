@@ -1,0 +1,26 @@
+.design-main{
+  width: 80%;
+  margin: auto;
+}
+.design-main .col{
+  margin: auto;
+}
+.design-main .col img{
+  width: 200% !important;
+}
+.design-main .col{
+  animation: project 2s infinite;
+}
+@keyframes project{
+  0%{
+    transform: translateY(0);
+}
+50%{
+    transform: translateY(10px);
+    transform: translateX(5px);
+    transform: rotate(1deg);
+}
+100%{
+    transform: translateY(0px);
+}
+}
