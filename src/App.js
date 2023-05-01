@@ -13,8 +13,12 @@ function App() {
     <>
     <AnimCursor/>
     <Nav/>
+    <Header/>
+    <About/>
+    <Services/>
+    <Projects/>
+    <Skills/>
     <Routes>
-      <Route path='/' element={<Header/>}/>
       <Route path='/about' element={<About/>}/>
       <Route path='/services' element={<Services/>}/>
       <Route path='/Designs' element={<Projects/>}/>
